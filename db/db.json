@@ -1,0 +1,28 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "movieName": "Snatch",
+      "movieDirector": "Me",
+      "score": 9
+    },
+    {
+      "id": 2,
+      "movieName": "Midnight Special",
+      "movieDirector": "You",
+      "score": 8
+    },
+    {
+      "id": 3,
+      "movieDirector": "Them",
+      "movieName": "Arrival",
+      "score": "9"
+    },
+    {
+      "id": 4,
+      "movieDirector": "Us",
+      "movieName": "Hell or High Water",
+      "score": "9"
+    }
+  ]
+}
