@@ -2,8 +2,8 @@
   "name": "movie-crud",
   "version": "1.0.0",
   "description": "### Make your own movie rating site.",
-  "main": "index.js",
   "scripts": {
+    "start": "nodemon appj.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
