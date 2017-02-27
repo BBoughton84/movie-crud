@@ -7,6 +7,21 @@ $(document).ready(function() {
   var posterURL
   var $selectedEditMovie
 
+  // <div class="col-lg-3 col-md-4 col-sm-6">
+  // <article class="card">
+  //   <header class="title-header">
+  //     <h3>Movie Title</h3>
+  //   </header>
+  //   <div class="card-block">
+  //     <div class="img-card">
+  //       <img src="//placehold.it/300x250" alt="Movie" class="w-100" />
+  //     </div>
+  //     <p class="tagline card-text text-xs-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+  //     <a href="#" class="btn btn-primary btn-block"><i class="fa fa-eye"></i> Watch Now</a>
+  //   </div>
+  // </article>
+  // </div>
+
   $.get("/movies")
     .then(function(result) {
       for (var i = 0; i < result.length; i++) {
