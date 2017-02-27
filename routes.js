@@ -21,7 +21,6 @@ router.get('/movies/:id', (req, res) =>{
 })
 
 router.post('/movies', (req, res) => {
-  console.log(req.body)
   db.get('movies')
     .push(req.body)
     .write()
