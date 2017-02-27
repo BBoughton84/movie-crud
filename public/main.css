@@ -1,25 +1,97 @@
 .name {
   color: red;
-  margin: 0 15px 0 5px;
+  text-align: center;
 }
 .director {
   color: blue;
-  margin: 0 15px 0 5px;
+  text-align: center;
 }
 .year {
   color: green;
-  margin: 0 15px 0 5px;
+  text-align: center;
 }
 .score {
   color: orange;
-  margin: 0 15px 0 5px;
+  text-align: center;
 }
 .edit-btn {
-  margin: 0 15px 0 5px;
+ margin: 0 20px 0 20px;
+ background-color: #8fca72;
 }
 .delete-btn {
-  margin: 0 15px 0 5px;
+  background-color: #d6a08f;
 }
 .name a:hover {
   color: red;
+}
+table, th, td {
+  border: 1px solid black;
+}
+.main-header {
+  border: 3px solid #061728;
+  color: #e8eced;
+  background-color: #053261;
+  text-align: center;
+}
+.main-title {
+  color: #061728;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 200;
+}
+table {
+  display: flex;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.button-contatiner {
+  display: flex;
+  justify-content: flex-end;
+}
+.add-movie-btn {
+  margin: 10px 10px 0 0;
+  border-radius: 5px;
+  color: #e8eced;
+}
+.submit-new-movie {
+  margin: 7px 50px 0 80px;
+  border-radius: 5px;
+  background-color: #e8eced;
+  text: #564280;
+}
+.btn-link:link {
+  text-decoration: none;
+}
+.back-to-main {
+  margin: 10px 10px 0 0;
+  border-radius: 5px;
+  color: #e8eced;
+}
+.container-edit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.poster-container {
+  display: flex;
+  justify-content: space-around;
+}
+.edit-movie-btn {
+  margin: 7px 50px 0 80px;
+  border-radius: 5px;
+  background-color: #e8eced;
+  text: #564280;
+}
+
+.landing-page-body {
+  background: url(matrix.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  background-color: #eef7fb;
 }

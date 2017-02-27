@@ -48,6 +48,27 @@
       "score": "9",
       "year": "1994",
       "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BYThjM2MwZGMtMzg3Ny00NGRkLWE4M2EtYTBiNWMzOTY0YTI4XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SY1000_CR0,0,757,1000_AL_.jpg"
+    },
+    {
+      "movieDirector": "Peter Farrely",
+      "movieName": "Dumb and Dumber",
+      "score": "7.5",
+      "year": "1994",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZDQwMjNiMTQtY2UwYy00NjhiLTk0ZWEtZWM5ZWMzNGFjNTVkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
+    },
+    {
+      "movieDirector": "Frank Darabont",
+      "movieName": "Shawshank Redemption",
+      "score": "9.5",
+      "year": "1994",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SY1000_CR0,0,672,1000_AL_.jpg"
+    },
+    {
+      "movieDirector": "Charles Shyer",
+      "movieName": "Father Of The Bride",
+      "score": "1.05",
+      "year": "1991",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjM3NzE4NzIxOV5BMl5BanBnXkFtZTgwODg2NjIyMDE@._V1_.jpg"
     }
   ]
 }

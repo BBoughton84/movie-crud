@@ -7,14 +7,30 @@
     <link href="main.css" rel="stylesheet">
   </head>
   <body>
+    <header class="main-header">
+      <h1>Bill's Movie Ratings</h1>
+    </header>
 
     <section>
-      <button type="button" class="" name="button"><a href="newmovie.html">Add A New Movie</a></button>
-      <h1>All Movies</h1>
-      <div class="movies">
+      <div class="button-contatiner">
+        <button type="button" class="add-movie-btn" name="button"><a class="btn-link" href="newmovie.html">Add A New Movie</a></button>
+      </div>
+      <h1 class="main-title">All Movies</h1>
+      <div class="container">
+        <table>
+          <tr class="movies">
+            <th>Movie</th>
+            <th>Director</th>
+            <th>Year</th>
+            <th>My Rating</th>
+            <th>Delete</th>
+            <th>Edit Movie</th>
+          </tr>
+        </table>
       </div>
 
     </section>
+
     <script src="htmlJS.js"></script>
 
     </script>

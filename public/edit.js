@@ -3,7 +3,6 @@ $(document).ready(function() {
   var specificName = decodeURIComponent(window.location.search).split("=")[1]
 
   var editedName = specificName.replace(/_/g, " ")
-  console.log("this is edit.js page " + editedName)
 
   $.get(`/movies/${editedName}`)
     .then(function(success) {
@@ -34,8 +33,7 @@ $(document).ready(function() {
       "poster": editPosterURL
     },
     success: function(result) {
-      console.log("it worked! " +result)
-      // window.location.href = "index.html"
+      $('.on-good-edit').text("Movie Saved!").fadeOut(3000)
     },
     error: function(err) {console.log(err)}
     })

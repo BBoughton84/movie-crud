@@ -9,17 +9,26 @@
 
   </head>
   <body>
-    <button type="button" class="" name="button"><a href="index.html">Back to Main Page</a></button>
+    <header class="main-header">
+      <h1>Bill's Movie Ratings</h1>
+    </header>
+    <button type="button" class="back-to-main" name="button"><a href="index.html">Back to Main Page</a></button>
     <h1 class="main-title">Suppose to be replaced</h1>
-    <img class="poster" src="">
-    <form class="add-movie" input="text">
-      Title: <input type="text" value="" name="title"class="edit edit-movie-title" ><br>
-      Director: <input type="text" value="" class="edit edit-movie-director"><br>
-      Year: <input type="text" value="" class="edit edit-movie-year"><br>
-      My Rating: <input type="text" value="" class="edit edit-movie-rating"><br>
-      Poster URL: <input type="text" value="" class="edit edit-movie-poster"><br>
-      <button type="button" class="edit-movie" name="button">Edit Movie</button>
-    </form>
+    <div class="poster-container">
+      <img class="poster" src="">
+    </div>
+    <div class="container-edit">
+
+      <form class="add-movie" input="text">
+        Title: <input type="text" value="" name="title"class="edit edit-movie-title" ><br>
+        Director: <input type="text" value="" class="edit edit-movie-director"><br>
+        Year: <input type="text" value="" class="edit edit-movie-year"><br>
+        My Rating: <input type="text" value="" class="edit edit-movie-rating"><br>
+        Poster URL: <input type="text" value="" class="edit edit-movie-poster"><br>
+        <button type="button" class="edit-movie edit-movie-btn" name="button">Edit Movie</button>
+      </form>
+      <p class="on-good-edit"></p>
+    </div>
 
     <script src="edit.js"></script>
     <script src="htmlJS.js"></script>
