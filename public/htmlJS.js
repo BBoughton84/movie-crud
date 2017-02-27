@@ -60,23 +60,14 @@ $(document).ready(function() {
     var $selectedEditMovie = $(this).prev().prev().prev().prev().prev().text()
     console.log($selectedEditMovie)
 
-    $('.main-title').replaceWith(`<b>${$selectedEditMovie}</b>`)
-    $('.main-title').text($selectedEditMovie)
 
   })
 
 
-  $(document).on("click", ".edit-movie", function() {
-
-
-  })
-
-
-
-  $(document).on("click", ".show-page", function () {
-    console.log($(this).text());
-    $('.show-title').text($(this).text())
-  })
+  // $(document).on("click", ".show-page", function () {
+  //   console.log($(this).text());
+  //   $('.show-title').text($(this).text())
+  // })
 
 
 
