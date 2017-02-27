@@ -1,0 +1,22 @@
+.name {
+  color: red;
+  margin: 0 15px 0 5px;
+}
+.director {
+  color: blue;
+  margin: 0 15px 0 5px;
+}
+.year {
+  color: green;
+  margin: 0 15px 0 5px;
+}
+.score {
+  color: orange;
+  margin: 0 15px 0 5px;
+}
+.edit-btn {
+  margin: 0 15px 0 5px;
+}
+.delete-btn {
+  margin: 0 15px 0 5px;
+}
