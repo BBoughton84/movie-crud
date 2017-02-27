@@ -1,44 +1,53 @@
 {
   "movies": [
     {
-      "id": 1,
       "movieName": "Snatch",
-      "movieDirector": "Me",
-      "score": 9,
-      "year": 2008,
+      "movieDirector": "Guy Ritchie",
+      "score": "9",
+      "year": "2001",
       "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTA2NDYxOGYtYjU1Mi00Y2QzLTgxMTQtMWI1MGI0ZGQ5MmU4XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SY1000_SX684_AL_.jpg"
     },
     {
-      "id": 2,
       "movieName": "Midnight Special",
-      "movieDirector": "You",
-      "score": 8,
-      "year": 2008,
+      "movieDirector": "Jeff Nichols",
+      "score": "8.5",
+      "year": "2016",
       "poster": "https://upload.wikimedia.org/wikipedia/en/b/b7/Midnight_Special_%28film%29_poster.jpg"
     },
     {
-      "id": 3,
-      "movieDirector": "Them",
+      "movieDirector": "Denis Villeneuve",
       "movieName": "Arrival",
-      "score": 9,
-      "year": 2008,
+      "score": "9",
+      "year": "2016",
       "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTExMzU0ODcxNDheQTJeQWpwZ15BbWU4MDE1OTI4MzAy._V1_SY1000_CR0,0,640,1000_AL_.jpg"
     },
     {
-      "id": 4,
-      "movieDirector": "Us",
+      "movieDirector": "David Mackenzie",
       "movieName": "Hell or High Water",
-      "score": 9,
-      "year": 2008,
+      "score": "9",
+      "year": "2016",
       "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTg4NDA1OTA5NF5BMl5BanBnXkFtZTgwMDQ2MDM5ODE@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
     },
     {
-      "id": 5,
-      "movieDirector": "People",
+      "movieDirector": "Martin McDonagh",
       "movieName": "In Brudge",
-      "score": 8,
-      "year": 2016,
+      "score": "8",
+      "year": "2008",
       "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY4OTYxODg4MV5BMl5BanBnXkFtZTcwMDcyNzM2MQ@@._V1_.jpg"
+    },
+    {
+      "movieDirector": "Steven Spielburg",
+      "movieName": "Jurassic park",
+      "score": "7.5",
+      "year": "1997",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/e/e7/Jurassic_Park_poster.jpg"
+    },
+    {
+      "movieDirector": "Robert Zemeckis",
+      "movieName": "Forrest Gump",
+      "score": "9",
+      "year": "1994",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BYThjM2MwZGMtMzg3Ny00NGRkLWE4M2EtYTBiNWMzOTY0YTI4XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SY1000_CR0,0,757,1000_AL_.jpg"
     }
   ]
 }

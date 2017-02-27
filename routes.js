@@ -34,7 +34,7 @@ router.post('/movies', (req, res) => {
 })
 
 router.patch('/movies/:id', (req, res) => {
-  const movieId = parseInt(req.params.id)
+  const movieId = req.params.id
   db.get('movies')
     .find({movieName: movieId})
     .assign(req.body)
