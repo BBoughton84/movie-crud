@@ -15,9 +15,9 @@ router.get('/movies', (req, res) => {
 })
 
 router.get('/movies/:id', (req, res) =>{
-  const movieId = parseInt(req.params.id)
+  const name = req.params.id
   const movies = db.get('movies')
-  res.json(movies.find({id: movieId}))
+  res.json(movies.find({movieName: name}))
 })
 
 router.post('/movies', (req, res) => {
@@ -36,7 +36,7 @@ router.post('/movies', (req, res) => {
 router.patch('/movies/:id', (req, res) => {
   const movieId = parseInt(req.params.id)
   db.get('movies')
-    .find({id: movieId})
+    .find({movieName: movieId})
     .assign(req.body)
     .write()
     .then(updatedMovie => {
@@ -49,7 +49,6 @@ router.patch('/movies/:id', (req, res) => {
 
 router.delete('/movies/:id', (req, res) => {
   const deleteMovie = req.params.id
-  console.log("this is the name " + deleteMovie)
   db.get('movies')
     .remove({movieName: deleteMovie})
     .write()
